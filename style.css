@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
+
+.cor-logo-um{
+    color:  #3CB815;
+    font-family: "Lora", serif;
+    font-family: 700;
+}
+.navbar{
+    background-color: #E1E4EB;
+}
+.cor-logo-dois {
+    color: #F65005;
+}
+.nav-link {
+    color:#747474;;
+}
+.cabecalho-fonte {
+    font-weight: 700;
+}
+.page-header {
+    padding-top: 12rem;
+    padding-bottom: 6rem;
+    background-image: url(assets/images/header-image.jpg);
+    background-size: cover;
+    background-position: top right no-repeat;
+}
+.navegacao {
+    display: flex;
+    justify-content: end;
+}
+.botao-nav{
+    width: 32px;
+    height: 32px;
+}
+.titulo{
+    font-size: 4rem;
+    font-family: "Lora", serif;
+
+}
+.breadcrumb-item{
+    color: #555555;
+    font-weight: 400;
+}
+.breadcrumb-item.active{
+    color: #111;
+    font-weight: 600;
+}
+.container-xxl {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.section-header {
+    position: relative;
+    padding-top: 25px;
+    max-width: 500px;
+}
+.segundo-titulo {
+    font-size: 3rem;
+    font-family: "Lora", serif;    
+}
+.contatos {
+    background-color: #3CB815;
+}
+.botao-redes{
+    width: 38px;
+    height: 38px;
+    background-color: transparent;
+}
+.botao-redes:hover {
+    color: black;
+    background-color: white;
+}
+.borda-form {
+    border-radius: 0;
+    background-color: transparent;
+    color: white;
+}
+.borda-form::placeholder {
+    color: #747474;
+}
+.botao-verde {
+    background-color: #3CB815;
+}
+.botao-verde:hover {
+    background-color: #6fbd57;
+}
+.rodape {
+    background-color: #111;
+}
+.link-rodape {
+    padding-left: 0;
+}
+.copyright {
+    border-top: 0.2px solid #747474;
+}
+.link-download {
+    color:  #3CB815;
+}
+.textbox-rodape-home {
+    color: #747474;
+}
+.link-rodape-home {
+    color: #747474;
+    text-decoration: none;
+    font-weight: 600;
+}
+.link-rodape-home:hover {
+    color: #3CB815;
+}
+@media screen and (max-width:920px) {
+    .navbar-nav {
+        background-color: white;
+    }    
+}
