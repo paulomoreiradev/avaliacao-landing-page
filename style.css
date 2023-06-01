@@ -37,6 +37,16 @@
     font-family: "Lora", serif;
 
 }
+.divider-um {
+    width: 60px;
+    border-bottom: 3px solid #3CB815;
+}
+
+.divider-dois {
+    width: 80px;
+    border-bottom: 2px solid #F65005;
+}
+
 .breadcrumb-item{
     color: #555555;
     font-weight: 400;
@@ -46,7 +56,7 @@
     font-weight: 600;
 }
 .container-xxl {
-    padding-top: 6rem;
+    padding-top: 4rem;
     padding-bottom: 6rem;
 }
 .section-header {
